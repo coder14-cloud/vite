@@ -6,6 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + Vue</title>
   </head>
+  <script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "5191d656-d1f2-4b77-b39d-d561c295b331", // The ID of this integration.
+    region: "us-south", // The region your integration is hosted in.
+    serviceInstanceID: "dfc7d5b7-c328-4d2b-b263-31c0340cd5a9", // The ID of your service instance.
+    onLoad: async (instance) => { await instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
