@@ -1,12 +1,8 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-</script>
 
 <template>
   <HelloWorld msg="Hey, This Healthmate Chatbot" />
   <br>
 <p>Click in the right bottom to begin your health checkup</p>
-<br>
 <p>Made By Vanshita Sabnani</p>
 </template>
 
