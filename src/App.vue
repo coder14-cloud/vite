@@ -4,11 +4,12 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <HelloWorld msg="Hey, This Healthmate Chatbot" />
-</template>
-<br>
+  <br>
 <p>Click in the right bottom to begin your health checkup</p>
 <br>
 <p>Made By Vanshita Sabnani</p>
+</template>
+
 
 <style scoped>
 .logo {
