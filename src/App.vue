@@ -5,10 +5,10 @@ import HelloWorld from './components/HelloWorld.vue'
 <template>
   <HelloWorld msg="Hey, This Healthmate Chatbot" />
   <br>
-<p>Click in the right bottom to begin your health checkup</p>
-<p>Made By Vanshita Sabnani</p>
+  <h1>HEALTHMATE</h1>
+  <p>Click in the right bottom to begin your health checkup</p>
+  <p>Made By Vanshita Sabnani</p>
 </template>
-
 
 <style scoped>
 .logo {
@@ -22,5 +22,10 @@ import HelloWorld from './components/HelloWorld.vue'
 }
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
+}
+
+h1 {
+  text-align: center;
+  margin: 2em 0;
 }
 </style>
