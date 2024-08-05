@@ -23,6 +23,13 @@ import HelloWorld from './components/HelloWorld.vue'
 </template>
 
 <style scoped>
+body {
+  background: linear-gradient(to bottom, #ffffff, #a0c4ff);
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
 .logo {
   height: 5em;
   position: absolute;
