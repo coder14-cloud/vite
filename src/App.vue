@@ -6,6 +6,7 @@ import HelloWorld from './components/HelloWorld.vue'
   <HelloWorld msg="Hey, This Healthmate Chatbot" />
   <br>
   <h1>HEALTHMATE</h1>
+  <img src="https://static.wixstatic.com/media/13baa1_39ee18a0e06d41088d4330ecae68f6eb~mv2.png" alt="Healthmate Image" class="healthmate-image" />
   <p>Click in the right bottom to begin your health checkup</p>
   <p>Made By Vanshita Sabnani</p>
 </template>
@@ -27,5 +28,12 @@ import HelloWorld from './components/HelloWorld.vue'
 h1 {
   text-align: center;
   margin: 2em 0;
+}
+
+.healthmate-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
 }
 </style>
