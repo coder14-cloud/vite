@@ -6,23 +6,44 @@ import HelloWorld from './components/HelloWorld.vue'
   <HelloWorld msg="Hey, This Healthmate Chatbot" />
   <br>
   <h1>HEALTHMATE</h1>
+  
+  <!-- Logo -->
+  <img src="https://static.wixstatic.com/media/13baa1_51ff3d0e63a44a5b84d29d6def374680~mv2.png" alt="Healthmate Logo" class="logo" />
+  
+  <!-- Contact and Address -->
+  <div class="top-info">
+    <p class="address">Healthmate Hospital, Khandwa</p>
+    <p class="contact">Contact No. 1234567890</p>
+  </div>
+  
   <img src="https://static.wixstatic.com/media/13baa1_39ee18a0e06d41088d4330ecae68f6eb~mv2.png" alt="Healthmate Image" class="healthmate-image" />
+  
   <p>Click in the right bottom to begin your health checkup</p>
   <p>Made By Vanshita Sabnani</p>
 </template>
 
 <style scoped>
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+  height: 5em;
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+
+.top-info {
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+
+.address {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact {
+  margin: 0;
+  font-size: 0.9em;
 }
 
 h1 {
